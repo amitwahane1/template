@@ -1,0 +1,303 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+body{
+//    background-image: url(musicband.jpg);
+    background-size: cover;
+}
+
+.container{
+    width: 100%;
+    height: 10vh;
+    background-color: lawngreen;
+    position: relative;
+}
+
+.navBar{
+  background-color: blueviolet;
+    //margin: 10px;
+    padding: 0px;
+    height:10vh;
+    width: 100%;
+    position: absolute;
+
+}
+
+.navBar ul{
+    margin: 20px 0px 0px 0px;
+   // overflow: hidden;
+}
+
+.navBar li{
+    float: left;
+    list-style: none;
+    
+   }
+
+.navBar li a{
+    text-decoration: none;
+    //background-color: green;
+    //width: 300px;
+    font-size: 22px;
+    color: white;
+    margin: 0px 0px 0px 60px;
+    
+}
+
+.navBar ul li a:hover{
+    background-color: gray;
+    border-radius: 5px;
+    height: 5vh;
+    //width: 200px;
+    padding:10px 20px 10px 20px;
+    text-align:center;
+}
+
+
+.Searchbar{
+    //float: right;
+    margin: -10px 0px 0px 0px;
+    padding: 0px 0px 0px 200px;
+   // background-color: hotpink;
+  //  height: 50px;
+  display: flex;
+  justify-content:center;
+  align-items:center;
+  position: relative;
+}
+
+ .container .navBar  .Searchbar{
+    margin: 10px 0px 0px 0px;
+}
+
+.inputSearch{
+    width: 450px;
+    margin: -4px 0px 0px 0px;
+    padding: 8px;
+    border-radius: 7px;
+   // position: fixed;
+
+}
+
+.fa{
+    //margin: 0px 15px 0px 0px;
+}
+.searchIcon{
+    //display: flex;
+    margin: -5px 0px 0px  410px;
+    position: absolute;
+    justify-content:center;
+  align-items:center;
+  
+}
+
+.empty{
+    //background-color: hotpink;
+    margin-left: 20px;
+}
+
+.band{
+     width:100%;
+    height: 50vh;
+    //margin:30px;
+    box-sizing: border-box;
+   // background-color: red;
+    //padding: 100px;
+  //  color:red
+}
+
+.ban{
+    width: 100%;
+    height: 15vh;
+    background-color: red;
+    box-sizing: border-box;
+}
+ 
+h1{
+    margin: 15px 0px 0px 0px;
+    text-align: center;
+}
+
+.pee{
+    margin: 15px 0px 10px 0px;
+    color:white;
+    text-align: center;
+
+}
+
+.pee1{
+    width: 600px;
+    text-align:left;
+    margin: 0px 0px 0px 380px;
+    padding: 10px;
+    box-sizing: content-box;
+    //background-color: lightcoral;
+}
+
+.drum{
+    max-width: 800px;
+    display:inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 00px 0px 380px;
+}
+
+.drum1{
+    margin: 20px 0px 0px 30px;
+    font-weight: bold;
+}
+
+.tour{
+    width: 100%;
+    background-color:black;
+    height: 130vh;
+    position: relative;
+    margin: 10px 0px 0px 0px;
+}
+
+.toursection{
+    width: 800px;
+    height: 50vh;
+    //background-color:red;
+    position: absolute;
+    left: 250px;
+    color: white;
+    letter-spacing: 4px;
+    margin: 10px 0px 0px 0px;
+
+}
+
+.tourul{
+    list-style: none;
+    background-color: white;
+    color: black;
+    padding: 10px;
+//  height: 150px;
+  
+}
+
+.tourul li span{
+    display:inline-block;
+    float: right;
+    margin: 0px 550px 0px 0px;
+//    padding: 2px;
+
+}
+.tourul li{
+    margin: 0px 0px 0px 15px;
+    font-size: 20px;
+    padding: 3px;
+    border-bottom: 2px solid rgba(20, 15, 15, 1);
+}
+
+span{
+    background-color: red;
+    margin: 0px 0px 0px 12px;
+    border-radius: 5px;
+}
+
+.tourimg{
+    
+    display: inline-flex;
+    margin: 100px 0px 0px -45px;
+    padding: 10px;
+}
+
+.newyork{
+    margin: -19px 0px 10px 0px;
+    background-color: white;
+    color: black;
+}
+.tourimg1{
+    //display: inline-flex;
+    //margin: -5px -5px 10px 0px;
+    padding: 10px;
+}
+
+.city{
+    margin: 15px;
+}
+.tourimg button{
+    width: 70px;
+    height: 30px;
+    background-color: gray;
+    border-radius: 5px;
+    margin: 0px 0px 0px 100px;
+}
+
+
+.footer{
+    
+    width: 100%;
+    height: 50vh;
+    //background-color: brown;
+    position: relative;
+}
+
+.footersub{
+    width: 800px;
+    height: 30vh;
+    //background-color: royalblue;
+    position: absolute;
+    margin: 45px 0px 0px 250px;
+}
+
+.footersub h1{
+    text-align: center;
+    margin: 0px 0px 0px 10px;
+}
+.footersub p{
+    margin: 10px 0px 0px 25px;
+}
+
+.footerDiv{
+    display:flex;
+    flex-direction: column;
+}
+.fa-solid{
+     display: inline-block;
+    font-size: 25px;
+    margin: 10px 0px 0px 25px;
+
+}
+
+#icon{
+
+margin: 0px 0px 0px 0px;
+}
+
+.footerform{
+   // background-color: coral;
+    position: absolute;
+    width: 50%;
+    height: 10vh;
+    margin: -90px 0px 0px 350px;
+}
+
+.footer-input{
+    width: 180px;
+    height: 40px;
+    border-radius: 5px;
+    border:1px solid rgba(0, 0, 0, 0.3);
+    margin: 5px;
+}
+
+#footer-input{
+    width: 375px;
+    height: 35px;
+    border-radius: 5px;
+    border:1px solid rgba(0, 0, 0, 0.3);
+    margin: 5px;
+}
+
+.footerform button{
+    margin: 0px 0px 0px 320px;
+    width: 50px;
+    height: 30px;
+    background-color: dimgrey;
+    border-radius: 5px;
+}
+
